@@ -1,0 +1,20 @@
+.taskboxform{
+    width: 50vh;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10vh;
+    margin-left: 8vh;
+    margin-top: 20px;
+}
+
+.tasknamebox{
+    background-color: #957A72;
+    height: 70px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.taskname{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

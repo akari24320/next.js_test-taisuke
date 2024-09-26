@@ -1,0 +1,60 @@
+.scheduleColumnContainer {
+    display: flex;
+    flex-direction: row;
+    width: 140vh;
+    margin-left: 10vh;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+.contents_box::-webkit-scrollbar{
+    display: none;
+  }
+
+  
+  .scheduleColumnDay {
+    margin-right: 0px;
+    background-color: #DBA886;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 28px;
+  }
+
+  .freeform{
+    margin-bottom: 20px;
+  }
+  
+  .scheduleColumn {
+    width: 200px;
+    border: 1px solid #ddd;
+  }
+  
+  .halfHourSlot {
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #C4C4C4;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .halfHourSlotDisabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+  }
+  
+  .timeLabel {
+    padding: 5px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+.scheduleColumn {
+    width: 200px;
+    border: 0px solid #ddd;
+    position: relative; /* タスクボックスの位置を基準にする */
+    background-color: #fff
+}
+  

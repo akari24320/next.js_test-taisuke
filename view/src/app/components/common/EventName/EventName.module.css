@@ -1,0 +1,16 @@
+.eventname{
+    width: 90vw;
+    height: 8.3vh;
+    margin:  0 auto;
+    border-bottom:0.5vh solid#DBA886;
+}
+
+.text{
+    color: #411400;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.text2{
+    font-size: 36px;
+}

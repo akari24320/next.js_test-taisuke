@@ -1,0 +1,11 @@
+.footer {
+  height: 8vh;
+  position: sticky;
+  align-items: center;
+  background-color: #957A72;
+  font-size: 30px;
+}
+
+.text{
+  color: #ffff;
+}

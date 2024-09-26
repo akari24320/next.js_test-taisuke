@@ -1,0 +1,33 @@
+.taskBox {
+    position: absolute; /* スロットの位置に基づいて動かせるように */
+    left: 0;
+    right: 0;
+    background-color: #FFEBD6;
+    border-radius: 20px;
+    color: #957A72;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 10; /* 常に前面に表示 */
+    width: 190px;
+    margin-left: 4px;
+    border-bottom:solid 2px #ceada3;
+    border-top: solid 2px #fff;
+  }
+  
+  
+  .deleteBtn {
+    background-color: #957A72;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  

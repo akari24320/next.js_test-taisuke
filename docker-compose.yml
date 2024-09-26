@@ -1,0 +1,14 @@
+services:
+  view:
+    image: node:20.17.0
+    container_name: "view"
+    volumes:
+      # 自分たちのPCのviewというフォルダを、コンテナのappというディレクトリと共有する
+      - ./view:/app
+    working_dir: /app
+    # インストールして、開発モードで実行
+    command: sh -c "npm ci && npm run dev"
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true

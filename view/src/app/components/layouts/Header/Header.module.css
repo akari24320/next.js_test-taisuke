@@ -1,0 +1,20 @@
+.header {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    background-color: #957A72;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text{
+    color: #ffff;
+}
+
+.icon{
+    height: 32px;
+    width: 32px;
+    background-color: aliceblue;
+    margin: 12px;
+    border-radius: 30px;
+}
